@@ -168,7 +168,7 @@ end
 
 def big_shoe_rebounds
   max_size = 0
-  rebounds = 10
+  rebounds = 0
   game_hash.each do |home_or_away, data|
     data[:players].each do |pair|
       shoe_size = pair[:shoe]
